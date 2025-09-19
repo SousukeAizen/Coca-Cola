@@ -9,11 +9,11 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    background: linear-gradient(#380000,#ac0306 45%,#d00003 55%, #cf2425);
 }
 
 header, footer {
     height: 100px;
-    background-color: #cf2425;
     color: #FFFFFF;
     display: flex;
     align-items: center;
@@ -26,7 +26,6 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #DA6062;
 }
 
 header{
@@ -68,10 +67,16 @@ main{
     width: 240px;
     transform: translateX(-100%);
     text-align: end;
+    justify-content: flex-end;
+    font-family: sans-serif;
+
 }
 
 .content-image {
     height: 85vh;
+    box-shadow: 40px 20px 30px rgba(0, 0, 0, 0, 0.5);
+    margin: 50px auto;
+    display: block;
 }
 
 footer {
